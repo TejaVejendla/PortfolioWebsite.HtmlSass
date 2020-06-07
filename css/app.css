@@ -52,6 +52,37 @@
           box-shadow: 0px 10 px 30px rgba(57, 56, 61, 0.205);
 }
 
+p.para {
+  color: #777777;
+  font: normal 500 16px/25px "Roborto", cursive;
+}
+
+.header-area .main-menu .navbar {
+  padding: 1rem 8rem;
+}
+
+.header-area .main-menu .navbar .navbar-brand {
+  padding-left: 5rem;
+  padding-right: 2rem;
+}
+
+.header-area .main-menu .navbar-nav .active a,
+.header-area .main-menu .navbar-nav a:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#4458dc), to(#854fee));
+  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.header-area .main-menu .navbar-nav .nav-item .nav-link {
+  font-family: "Roborto", cursive;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 1.2rem;
+  color: #141313;
+}
+
 html, body {
   margin: 0;
   -webkit-box-sizing: border-box;
@@ -89,30 +120,18 @@ html, body {
   width: 90rem;
 }
 
-.header-area .main-menu .navbar {
-  padding: 1rem 8rem;
+.site-main .about-area {
+  padding: 8rem 5rem;
 }
 
-.header-area .main-menu .navbar .navbar-brand {
-  padding-left: 5rem;
-  padding-right: 2rem;
+.site-main .about-area .about-title h2 > span {
+  display: block;
+  font: normal bold 49px/60px "Roborto", cursive;
+  letter-spacing: 21px;
 }
 
-.header-area .main-menu .navbar-nav .active a,
-.header-area .main-menu .navbar-nav a:hover {
-  background: -webkit-gradient(linear, left top, right top, from(#4458dc), to(#854fee));
-  background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-}
-
-.header-area .main-menu .navbar-nav .nav-item .nav-link {
-  font-family: "Roborto", cursive;
-  text-transform: uppercase;
-  font-weight: 600;
-  padding: 1.2rem;
-  color: #141313;
+.site-main .about-area .about-title .paragraph > p {
+  padding: 0.4rem 0;
 }
 
 @font-face {

@@ -47,3 +47,8 @@
   color: whitesmoke;
   box-shadow: $box-shadow;
 }
+
+p.para{
+  color: $text-color;
+  font: normal 500 16px/25px $the-font-family;
+}
