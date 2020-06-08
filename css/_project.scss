@@ -1,0 +1,20 @@
+.site-main .project-area {
+  padding: 4rem 0;
+  .button-group button {
+    background: transparent;
+    border: none;
+    font: normal 500 16px/130px $the-font-family;
+    text-transform: uppercase;
+    & + button {
+      padding-left: 3rem;
+    }
+  }
+  .project-grid .our-project {
+    .title h4 {
+      font: normal 700 25px/12px $the-font-family;
+    }
+    .img a:hover img {
+      filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+    }
+  }
+}

@@ -11,9 +11,11 @@
     padding: 2rem 0;
     width: 16rem;
     margin: 5rem 0.5rem;
-    transition: box-shadow 0.7s ease;
+    // transition: box-shadow 0.7s ease;
+    transition: transform 0.7s ease;
     &:hover {
-      box-shadow: $box-shadow;
+    //   box-shadow: $box-shadow;
+    transform: scale(1.05);
     }
   }
 }
