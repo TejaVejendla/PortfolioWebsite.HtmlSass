@@ -102,6 +102,20 @@ button:hover,
   color: #141313;
 }
 
+.navbar_fixed {
+  position: fixed;
+  width: 100%;
+  top: -1px;
+  left: 0;
+  right: 0;
+  background: #ffffff;
+  -webkit-box-shadow: var(--box-shadow);
+          box-shadow: var(--box-shadow);
+  z-index: 999;
+  -webkit-transition: background 1s ease;
+  transition: background 1s ease;
+}
+
 html, body {
   margin: 0;
   -webkit-box-sizing: border-box;

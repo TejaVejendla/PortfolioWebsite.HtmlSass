@@ -1,6 +1,6 @@
 # Introduction 
-This Project is build is based on the [Complete Portfolio Website with Bootstrap - HTML/CSS - Daily Tuition](https://www.youtube.com/watch?v=dgKSqz3it50&t=2911s)
-and the Sass Setup is done base on [Learn Sass In 20 Minutes | Sass Crash Course](https://www.youtube.com/watch?v=Zz6eOVaaelI&t=931s)
+This Project is build is based on the [Complete Portfolio Website with Bootstrap - HTML/CSS - Daily Tuition](https://www.youtube.com/watch?v=dgKSqz3it50)
+and the Sass Setup is done base on [Learn Sass In 20 Minutes | Sass Crash Course](https://www.youtube.com/watch?v=Zz6eOVaaelI)
 
 ## Technologies Used
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
