@@ -276,26 +276,26 @@ html, body {
           transform: scale(1.05);
 }
 
-.site-main .project-area {
+.project-area {
   padding: 4rem 0;
 }
 
-.site-main .project-area .button-group button {
+.project-area .button-group button {
   background: transparent;
   border: none;
   font: normal 500 16px/130px "Roborto", cursive;
   text-transform: uppercase;
 }
 
-.site-main .project-area .button-group button + button {
+.project-area .button-group button + button {
   padding-left: 3rem;
 }
 
-.site-main .project-area .project-grid .our-project .title h4 {
+.project-area .project-grid .our-project .title h4 {
   font: normal 700 25px/12px "Roborto", cursive;
 }
 
-.site-main .project-area .project-grid .our-project .img a:hover img {
+.project-area .project-grid .our-project .img a:hover img {
   -webkit-filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
           filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
 }
